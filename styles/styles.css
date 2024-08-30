@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     font-family: "Inter", sans-serif;
-    /* color: #FFF; */
+    color: #00120B;
     display: flex;
     min-height: 100vh;
     text-align: center;
@@ -18,7 +18,7 @@ h2{
 h3{
     font-size: 1.25rem;
     font-weight: 700;
-    color: #5A537B;
+    color: #00120B;
 }
 
 h2, h3{
@@ -42,14 +42,14 @@ button{
 }
 
 .section-one{
-    background-color: #6943FF;
+    background-color: #00120B;
     padding-block: 2em;
-    color: #FFF;
+    color: #CEFF1A;
     border-radius: 5px 5px 0px 0px;
 }
 
 .input-value{
-    border: 2px solid #B295FF;
+    border: 2px solid #ceff1a90;
     display: block;
     width: 10%;
     min-width: fit-content;
@@ -70,13 +70,14 @@ button{
     padding: .7em 1.5em;
     border-radius: 5px;
     transition: .2s ease-in-out;
+    background-color: #CEFF1A;
 }
 
-.btn:hover{
+.btn:focus, .btn:hover{
     cursor: pointer;
     transform: scale(1.1);
-    color: #FFF;
-    background-color: #000;
+    color: #FCFCFC;
+    background-color: #ceff1a90;
 }
 
 /* Section two */
