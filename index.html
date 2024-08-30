@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit converter</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="section-one">
+            <h2>Metric/Imperial Unit Conversion</h2>
+            <div type="text" id="input-value" class="input-value" contenteditable="true"></div>
+            <button class="btn" id="submit-el">Convert</button>
+        </section>
+        <section class="section-two">
+            <div class="txt-container">
+                <div class="unit-txt">
+                    <h3>Length (Meter/Feet)</h3>
+                    <p id="length-el">1 meter = 3.37 feet | 1 foot = 0.3048 meter</p>
+                </div>
+                <div class="unit-txt">
+                    <h3>Volume (Liters/Gallons)
+                    </h3>
+                    <p id="volume-el">1 liter = 0.2642 gallons | 1 gallons = 3.7854 liters</p>
+                </div>
+                <div class="unit-txt">
+                    <h3>Mass (Kilograms/Pounds)</h3>
+                    <p id="mass-el">1 kilo = 2.2046 pounds | 1 pound =  0.4536 kilos</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/scripts/scripts.js" defer></script>
+</body>
+</html>
