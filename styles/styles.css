@@ -74,10 +74,10 @@ button{
 }
 
 .btn:focus, .btn:hover{
-    cursor: pointer;
     transform: scale(1.1);
-    color: #FCFCFC;
+    cursor: pointer;
     background-color: #ceff1a90;
+    color: #FFF;
 }
 
 /* Section two */

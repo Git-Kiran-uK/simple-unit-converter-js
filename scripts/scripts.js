@@ -42,4 +42,6 @@ submitEl.addEventListener('click', () => {
     lengthEl.textContent = inputValue > 1 ? `${inputValue} meters = ${lengthFeet} | ${inputValue} feet = ${lengthMeter}` : `${inputValue} meter = ${lengthFeet} | ${inputValue} foot = ${lengthMeter}`;
     volumeEl.textContent = inputValue > 1 ? `${inputValue} liters = ${volumeGallons} | ${inputValue} gallons = ${volumeLiter}` : `${inputValue} liter = ${volumeGallons} | ${inputValue} gallon = ${volumeLiter}`;
     massEl.textContent = inputValue > 1 ? `${inputValue} kilos = ${massPound} | ${inputValue} pounds = ${massKilo}` : `${inputValue} kilo = ${massPound} | ${inputValue} pound = ${massKilo}`;
+
+    submitEl.blur();
 });
